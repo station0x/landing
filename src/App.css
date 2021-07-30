@@ -1,0 +1,6 @@
+.video-split {
+    width: 200px;
+    overflow:hidden;
+    display:block;
+    height: 360px;
+}
