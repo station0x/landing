@@ -4,3 +4,7 @@
     display:block;
     height: 360px;
 }
+
+body {
+    font-family: 'Inter';
+}
