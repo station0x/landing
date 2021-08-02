@@ -130,7 +130,7 @@ const Header = ({
                     className="list-reset header-nav-right"
                   >
                     <li>
-                      <Link to="" className="button button-primary button-wide-mobile" style={{borderRadius: '4px', height: '43px', lineHeight: '19px', fontWeight: '500', maLeft: '0px'}} onClick={closeMenu}>Read the Article</Link>
+                      <Link className="button button-primary button-wide-mobile" style={{borderRadius: '4px', height: '43px', lineHeight: '19px', fontWeight: '500', maLeft: '0px'}} onClick={()=> window.open("https://medium.com/@captainisaaca/station0x-space-gamified-nft-marketplace-3bc927aa9b43", "_blank")}>Read the Article</Link>
                     </li>
                   </ul>
                 </div>

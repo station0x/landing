@@ -67,7 +67,7 @@ const Hero = ({
               <p className="mt-32 mb-32 reveal-from-bottom" data-reveal-delay="400"></p>
               <div className="mt-16 reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile onClick={()=> window.open("https://medium.com/p/3bc927aa9b43/", "_blank")}>
+                  <Button tag="a" color="primary" wideMobile onClick={()=> window.open("https://medium.com/@captainisaaca/station0x-space-gamified-nft-marketplace-3bc927aa9b43", "_blank")}>
                     Know More
                     <div style={{
                         paddingTop: '7px',
