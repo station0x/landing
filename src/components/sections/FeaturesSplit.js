@@ -49,7 +49,7 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Game that helps',
+    title: 'Play to Earn',
     // paragraph: 'Station0x is a game built on top of NFT marketplace. Its designed to incentivize astronauts to promote and help creators sell their work.'
     paragraph: 'Station0x is a space-themed NFT market that introduces Astronauts, a third-party in  NFT sales. Astronauts are incentivized to match buyers with sellers and maximize trading volumes.'
   };
@@ -70,10 +70,10 @@ const FeaturesSplit = ({
                   For Creators
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Create compelling artwork
+                  Monetize your artwork
                   </h3>
                 <p className="m-0">
-                  Do what you love to do, create amazing NFTS and list it on Station0x. The game provides you with people that aligned to help you sell the artwork you create. No need to worry about it, just focus on your amazing creative process.
+                  Do what you love to do, create amazing NFTs and list them on Station0x. The game provides you with people who are incentivised to help you sell the artwork you create. No need to worry about it, just focus on your amazing creative process.
                 </p>
               </div>
               <div className={
@@ -104,10 +104,10 @@ const FeaturesSplit = ({
                   For Collectors
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Enjoy your true ownership of the NFTs
+                  Enjoy true ownership of your NFTs
                   </h3>
                 <p className="m-0">
-                  Don't let us or others pull the rug on your NFTs. All of the NFTs listed in Station0x are stored persistently and permanently on IPFS. No one can alter or censor the artwork you own, even the creator.
+                  Don't let us or others pull the rug on your NFTs. All of the NFTs listed on Station0x are stored persistently and permanently on IPFS. No one can alter or censor the artwork you own, even the creator.
                   </p>
               </div>
               <div className={

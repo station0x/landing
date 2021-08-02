@@ -25,7 +25,7 @@ const FooterNav = ({
           <Link to="">About us</Link>
         </li>
         <li>
-          <Link onClick={()=> window.open('https://docs.station0x.com/faq')}>FAQ's</Link>
+          <Link onClick={()=> window.open('https://docs.station0x.com/faq')}>FAQs</Link>
         </li>
       </ul>
     </nav>
