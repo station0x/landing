@@ -50,7 +50,8 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Game that helps',
-    paragraph: 'Station0x can be considered as a game built on top of a NFT marketplace. Its designed to incentivize astronauts to promote and help creators sell their work.'
+    // paragraph: 'Station0x is a game built on top of NFT marketplace. Its designed to incentivize astronauts to promote and help creators sell their work.'
+    paragraph: 'Station0x is a space-themed NFT market that introduces Astronauts, a third-party in  NFT sales. Astronauts are incentivized to match buyers with sellers and maximize trading volumes.'
   };
 
   return (
@@ -72,8 +73,8 @@ const FeaturesSplit = ({
                   Create compelling artwork
                   </h3>
                 <p className="m-0">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  Do what you love to do, create amazing NFTS and list it on Station0x. The game provides you with people that aligned to help you sell the artwork you create. No need to worry about it, just focus on your amazing creative process.
+                </p>
               </div>
               <div className={
                 classNames(
@@ -103,10 +104,10 @@ const FeaturesSplit = ({
                   For Collectors
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Enjoy your true ownership of the NFTs
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Don't let us or others pull the rug on your NFTs. All of the NFTs listed in Station0x are stored persistently and permanently on IPFS. No one can alter or censor the artwork you own, even the creator.
                   </p>
               </div>
               <div className={
@@ -141,10 +142,11 @@ const FeaturesSplit = ({
                   For Astronauts
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Create your own strategy to get rewarded
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Be an early adopter, Be an astronaut.
+                  Own spaceships you need, help creators sell their art and compete with other stations to maximize your profits.
                   </p>
               </div>
               <div className={

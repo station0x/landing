@@ -19,16 +19,13 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <Link to="#0">Contact</Link>
+          <Link onClick={()=> window.location = 'mailto:team@station0x.com'}>Contact</Link>
         </li>
         <li>
-          <Link to="#0">About us</Link>
+          <Link to="">About us</Link>
         </li>
         <li>
-          <Link to="#0">FAQ's</Link>
-        </li>
-        <li>
-          <Link to="#0">Support</Link>
+          <Link onClick={()=> window.open('https://docs.station0x.com/faq')}>FAQ's</Link>
         </li>
       </ul>
     </nav>

@@ -60,14 +60,12 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
+            <h1 className="mt-32 mb-32 reveal-from-bottom" data-reveal-delay="200">
               A community-driven gamified NFT Marketplace for <span className="text-color-primary">Astronauts</span>
             </h1>
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              Station0x is a space-themed open market that utilises the gamification model as an incentive-centred design to direct system key players toward public benefits of both parties of the NFT market (i.e. creator and collector) through fair competition and rewarding mechanisms.
-                </p>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
+              <p className="mt-32 mb-32 reveal-from-bottom" data-reveal-delay="400"></p>
+              <div className="mt-16 reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile onClick={()=> window.open("https://medium.com/p/3bc927aa9b43/", "_blank")}>
                     Know More

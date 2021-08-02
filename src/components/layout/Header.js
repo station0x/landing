@@ -123,14 +123,14 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#" onClick={closeMenu}>Documentation</Link>
+                      <Link onClick={()=> window.open("https://docs.station0x.com", "_blank")}>Documentation</Link>
                     </li>
                   </ul>
                   <ul
                     className="list-reset header-nav-right"
                   >
                     <li>
-                      <Link to="https://docs.station0x.com" className="button button-primary button-wide-mobile" style={{borderRadius: '4px', height: '43px', lineHeight: '19px', fontWeight: '500', maLeft: '0px'}} onClick={closeMenu}>Read the Article</Link>
+                      <Link to="" className="button button-primary button-wide-mobile" style={{borderRadius: '4px', height: '43px', lineHeight: '19px', fontWeight: '500', maLeft: '0px'}} onClick={closeMenu}>Read the Article</Link>
                     </li>
                   </ul>
                 </div>
