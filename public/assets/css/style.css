@@ -34755,7 +34755,7 @@ button:focus {
 }
 
 .social.social-muted a:not(.btn-circle):not([class*=link-]) i {
-  color: #343f52 !important;
+  color: #fff !important;
 }
 
 .social.social-white a i,
@@ -35776,7 +35776,7 @@ header {
     padding-bottom: 0.5rem;
     overflow-y: auto;
     visibility: hidden;
-    background: #1e2228;
+    background: #121212;
     transition-timing-function: ease-in-out;
     transition-duration: 0.3s;
     transition-property: left, visibility;
