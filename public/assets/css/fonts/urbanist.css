@@ -1,11 +1,12 @@
 @import "../../fonts/urbanist/urbanist.css";
+@import "../../fonts/satriumph/satriumph.css";
 
 * {
   word-spacing: normal !important;
 }
 
 body {
-  font-family: "Urbanist", sans-serif;
+  font-family: "Urbanist", "SATriumph", sans-serif;
   font-size: 0.85rem;
 }
 

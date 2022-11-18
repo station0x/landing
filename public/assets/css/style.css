@@ -1,9 +1,5 @@
 @charset "UTF-8";
 /*!
-Theme Name: Sandbox - Modern & Multipurpose Bootstrap 5 Template
-Theme URI:	https://sandbox.elemisthemes.com/
-Version:	2.0.0
-Author:		elemis
 */
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700");
 
@@ -184,6 +180,11 @@ h6,
 }
 
 p {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+}
+
+p2 {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -44904,9 +44905,9 @@ footer.bg-dark {
   top: 0;
   left: 0;
   z-index: 1;
-  width: 100%;
-  height: 100%;
-  background: rgba(30, 34, 40, 0.5);
+  width: 100vh;
+  height: 100ch;
+
 }
 
 .image-wrapper.bg-overlay-300:before {
@@ -45220,3 +45221,124 @@ footer.bg-dark.angled.upper-start:before {
 		transform: translatey(0px);
 	}
 }
+
+
+.par-section:before
+{
+   content: '';
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 100px;
+   /* background: linear-gradient(to top, #222, transparent); */
+   z-index: 99999999;
+}
+
+.par-section:after
+{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   /* background: #222; */
+   z-index: 99999999;
+}
+
+
+.par-section
+{
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.par-img
+{
+   position: absolute;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   pointer-events: none;
+}
+
+.char-sm {
+  object-fit: contain;
+}
+
+#text
+{
+   position: relative;
+   color: rgb(206, 206, 206);
+   font-size: 80px;
+   font-family: "SATriumph" !important;
+   z-index: 1;
+   font-family: 'Urbanist';
+   line-height: 1.05 !important;
+   text-align: center;
+   padding-top: 30vh;
+}
+
+#text2
+{
+  position: relative;
+  color: rgb(206, 206, 206);
+  font-size: 60px;
+  font-family: "SATriumph" !important;
+  z-index: 1;
+  font-family: 'Urbanist';
+  line-height: 1.05 !important;
+  text-align: center;
+}
+
+#text3
+{
+  position: relative;
+  color: rgb(206, 206, 206);
+  font-size: 35px;
+  font-family: "SATriumph" !important;
+  z-index: 1;
+  font-family: 'Urbanist';
+  line-height: 1.2 !important;
+  text-align: left;
+}
+
+#text4
+{
+  position: relative;
+  color: rgb(206, 206, 206);
+  font-size: 18px;
+  font-family: "SATriumph" !important;
+  z-index: 1;
+  font-family: 'Urbanist';
+  line-height: 1.5 !important;
+  text-align: left;
+}
+
+#HH1
+{
+  position: relative;
+  color: #fff;
+  font-size: 80px;
+  font-family: "SATriumph" !important;
+  z-index: 1;
+  font-family: 'Urbanist';
+  line-height: 1.05 !important;
+  text-align: center;
+}
+
+#road
+{
+   z-index: 2;
+}
+
+
+
+/* Custome */
