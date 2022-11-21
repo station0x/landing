@@ -35692,6 +35692,7 @@ header {
 .banner--stick:not(.navbar-dark),
 .banner--stick.transparent {
   box-shadow: 0rem 0rem 1.25rem rgba(30, 34, 40, 0.04);
+  background:rgba(0,0,0,0.3);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 }
@@ -43845,6 +43846,11 @@ video.player {
   margin-right: auto;
 }
 
+.play-btn:hover {
+  background: #01E898 !important;
+  color: black !important;
+}
+
 .pricing-wrapper [class*=col-] .pricing.card .card-body .icon {
   margin-bottom: 0.75rem;
 }
@@ -45201,7 +45207,7 @@ footer.bg-dark.angled.upper-start:before {
 }
 .floating-anim .anim-child  {
   transform: translatey(0px);
-  animation: float 6s ease-in-out infinite;
+  animation: float 2s ease-in-out infinite;
 }
 
 
@@ -45277,7 +45283,7 @@ footer.bg-dark.angled.upper-start:before {
 {
    position: relative;
    color: rgb(206, 206, 206);
-   font-size: 80px;
+   font-size: 70px;
    font-family: "SATriumph" !important;
    z-index: 1;
    font-family: 'Urbanist';

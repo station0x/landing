@@ -800,6 +800,8 @@ let mountain = document.getElementById('mountain');
 let xen = document.getElementById('xen');
 let road = document.getElementById('road');
 let text = document.getElementById('text');
+let initial = -70 
+text.style.top = initial + 'px'
 
 window.addEventListener('scroll', function(){
    var value = window.scrollY;
@@ -808,6 +810,5 @@ window.addEventListener('scroll', function(){
    mountain.style.top = -value * 0.15 + 'px';
    xen.style.left = -value * 0.5 + 'px';
    road.style.top = value * 0.15 + 'px';
-   text.style.top = value * 1 + 'px';
-   
+   text.style.top = (value * 1.5 ) + initial + 'px';
 });
